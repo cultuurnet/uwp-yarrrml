@@ -1,0 +1,21 @@
+<http://example.org/activiteit/123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/PeriodOfTime> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://purl.org/dc/terms/description> "Bart Peeters en zijn onafscheidelijke band \'De Ideale Mannen\' hebben de laatste jaren een livereputatie opgebouwd om u tegen te zeggen. [...]"@nl <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#period> <http://data.europa.eu/m8g/endTime> "2023-06-02T20:30:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://purl.org/dc/terms/type> <https://data.cultuurparticipatie.be/id/concept/ActiviteitType/concert> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://purl.org/dc/terms/modified> "2023-04-26T12:15:39+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://purl.org/dc/terms/title> "Bart Peeters - De Kat zat op de Krant Tour"@nl <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#gestructureerdeIdentificator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://example.org/activiteit/#period> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#Identifier> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://www.w3.org/ns/adms#identifier> <http://example.org/activiteit/#identifier> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#period> <http://data.europa.eu/m8g/startTime> "2023-06-02T17:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#identifier> <http://purl.org/dc/terms/creator> <https://data.vlaanderen.be/id/organisatie/OVO020353> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#gestructureerdeIdentificator> <https://data.vlaanderen.be/ns/generiek#naamruimte> <http://example.org/activiteit/> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#identifier> <https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator> <http://example.org/activiteit/123#gestructureerdeIdentificator> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <https://data.uitwisselingsplatform.be/platform#verwerktOp> "2023-04-26T13:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <https://data.vlaanderen.be/ns/cultuurparticipatie#thema> <https://data.cultuurparticipatie.be/id/concept/ThemaType/jazzEnBlues> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#identifier> <http://www.w3.org/2004/02/skos/core#notation> "http://example.org/activiteit/123"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123#gestructureerdeIdentificator> <https://data.vlaanderen.be/ns/generiek#lokaleIdentificator> "123" <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <https://www.w3.org/ns/prov#atLocation> <http://example.org/location/456> <http://example.org/activiteit/123> .
+<http://example.org/activiteit/123> <http://purl.org/dc/terms/created> "2023-04-26T12:14:01+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://example.org/activiteit/123> .
