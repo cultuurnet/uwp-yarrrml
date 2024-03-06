@@ -33,6 +33,9 @@ note: morph-kgc supports yarrrml as input, but in this setup the engine is not a
 ## Citations
 
 **yatter**
+[ICWE2023](https://icwe2023.webengineering.org/program/) [paper](http://davidchavesfraga.com/outcomes/papers/2023/iglesias2023yatter.pdf):
+
+```bib
 @inproceedings{iglesias2023human,
   title={Human-Friendly RDF Graph Construction: Which One Do You Chose?},
   author={Iglesias-Molina, Ana and Chaves-Fraga, David and Dasoulas, Ioannis and Dimou, Anastasia},
@@ -42,8 +45,12 @@ note: morph-kgc supports yarrrml as input, but in this setup the engine is not a
   doi={10.1007/978-3-031-34444-2_19},
   organization={Springer}
 }
+```
 
 **morph-kgc**
+**[SWJ paper](https://www.doi.org/10.3233/SW-223135)**:
+
+```bib
 @article{arenas2024morph,
   title     = {{Morph-KGC: Scalable knowledge graph materialization with mapping partitions}},
   author    = {Arenas-Guerrero, Julián and Chaves-Fraga, David and Toledo, Jhon and Pérez, María S. and Corcho, Oscar},
@@ -56,3 +63,4 @@ note: morph-kgc supports yarrrml as input, but in this setup the engine is not a
   number    = {1},
   pages     = {1-20}
 }
+```
