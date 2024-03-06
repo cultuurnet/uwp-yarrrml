@@ -28,7 +28,9 @@ mappings:
       - ['input-data/activiteit_results.csv~csv']
     # Define graph name
     graph: http://example.org/activiteit/$(activiteit_id)
+    # Define subject mapping
     s: http://example.org/activiteit/$(activiteit_id)
+    # Define predicate-object mappings
     po:
       - [a, cidoc:E7_Activity]
       - [dcterms:created, $(activiteit_creationdate), xsd:dateTime]
