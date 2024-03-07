@@ -39,7 +39,7 @@ mappings:
       - [dcterms:created, $(location_created), xsd:dateTime]
       - [dcterms:modified, $(location_modified), xsd:dateTime]
       - [platform:verwerktOp, $(location_processed), xsd:dateTime]
-      - [dcterms:title, $(location_name_nl), nl~lang]
+      - [locn:locatorName, $(location_name_nl), nl~lang]
       - [dcterms:type, loctype:$(location_type)~iri]
       - [locn:address, https://data.example.org/venue/$(location_id)#address~iri] # Predicate is locn:address
       - [locn:geometry, https://data.example.org/venue/$(location_id)#geometry~iri]
